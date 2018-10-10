@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ridorianto.bangun_datar.Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher_round"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SELAMAT DATANG DI APLIKASI PERHITUNGAN BANGUN DATAR"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_persegi"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="btn_psg"
+            android:text="PERSEGI PANJANG" />
+
+        <Button
+            android:id="@+id/btn_segitiga"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_sgt"
+            android:text="SEGITIGA" />
+
+        <Button
+            android:id="@+id/btn_jjg"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_jjg"
+            android:text="JAJAR GENJANG" />
+
+        <Button
+            android:id="@+id/btn_bkt"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_bkt"
+            android:text="BELAH KETUPAT" />
+
+        <Button
+            android:id="@+id/btn_lyly"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_lyly"
+            android:text="LAYANG LAYANG" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

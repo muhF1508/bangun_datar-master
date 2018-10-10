@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_foreground">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Luas Layang Layang"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true"
+            android:text="Luas = 1/2 x d1 x d2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/diago1"
+            android:layout_toStartOf="@+id/diago1"
+            android:text="Diagonal1  :"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/diago1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="70dp"
+            android:layout_marginTop="158dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_centerVertical="true"
+            android:text="Diagonal2 :"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/diago2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView20"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/diago1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="165dp"
+            android:text="Hasil" />
+
+        <TextView
+            android:id="@+id/txt_hasil"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="91dp"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="99dp"
+            android:layout_toStartOf="@+id/txt_hasil"
+            android:text="Hasilnya :"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

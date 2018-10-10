@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ridorianto.bangun_datar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Persegi"
+            android:label="@string/title_persegi">
+        </activity>
+        <activity android:name=".Segitiga"
+            android:label="@string/title_segitiga">
+        </activity>
+        <activity android:name=".Jajargenjang"
+            android:label="@string/title_jjg">
+        </activity>
+        <activity android:name=".Belahketupat"
+            android:label="@string/title_bkt">
+        </activity>
+        <activity android:name=".Layanglayang"
+            android:label="@string/title_lyly">
+        </activity>
+    </application>
+
+</manifest>

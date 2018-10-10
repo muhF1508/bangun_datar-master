@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="title_persegi">Persegi Panjang</string>
+    <string name="title_segitiga">Segitiga</string>
+    <string name="title_app">PERHITUNGAN PERSEGI PANJANG</string>
+    <string name="title_txt1">PANJANG</string>
+    <string name="title_jjg">Jajar Genjang</string>
+    <string name="title_bkt">Belah Ketupat</string>
+    <string name="title_lyly">Layang-layang</string>
+</resources>
