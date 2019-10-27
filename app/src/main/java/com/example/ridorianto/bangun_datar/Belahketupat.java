@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class Belahketupat extends AppCompatActivity {
     //Deklarasi variabel komponen
     EditText d1, d2;
+    // ini button
     Button e;
     TextView anu;
 
