@@ -36,6 +36,7 @@ public class Persegi extends AppCompatActivity {
             public void onClick(View v) {
                 //toas
                 if(p.length()== 0 && l.length()== 0){
+                    // ini toast
                     Toast.makeText(getApplication(),"Panjang dan lebar tidak boleh kosong", Toast.LENGTH_LONG).show();
                 }else if(p.length() == 0){
                     Toast.makeText(getApplication(), "Panjang tidak boleh kosong", Toast.LENGTH_LONG).show();
