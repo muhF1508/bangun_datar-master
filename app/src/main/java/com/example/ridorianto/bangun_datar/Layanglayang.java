@@ -34,6 +34,7 @@ public class Layanglayang extends AppCompatActivity {
             public void onClick(View v) {
                 //toas
                 if(D1.length()== 0 && D2.length()== 0){
+                    // ini namanya toast, ok
                     Toast.makeText(getApplication(),"Diagonal1 dan Diagonnal2 tidak boleh kosong", Toast.LENGTH_LONG).show();
                 }else if(D1.length() == 0){
                     Toast.makeText(getApplication(), "Diagonal1 tidak boleh kosong", Toast.LENGTH_LONG).show();
@@ -42,6 +43,7 @@ public class Layanglayang extends AppCompatActivity {
                 }else {
                     //Deklarasi variabel perhitungan
                     String isiAlas = D1.getText().toString();
+                    // ini komen
                     String isiTinggi = D2.getText().toString();
                     double a = Double.parseDouble(isiAlas);
                     double t = Double.parseDouble(isiTinggi);
