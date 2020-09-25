@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Persegi extends AppCompatActivity {
-    //Deklarasi variabel komponen
+    //Deklarasi variabel komponen barra
     EditText p, l;
     Button b;
     TextView hasil;
